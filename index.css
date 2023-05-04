@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.landing-section {
+    background-image: url('https://res.cloudinary.com/drvxyzvyt/image/upload/v1683181816/img1_nmb6jr.jpg');
+    background-size: cover;
+    height: 75vh;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.topnav {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+
+.topnav a {
+    color: black;
+    font-family: 'Times New Roman';
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-weight: 525;
+    
+}
+
+.about {
+    background-color: #f792b0;
+    background-color: rgba(246, 146, 176, .5);
+    color: white;
+    padding: 15px;
+    width: 320px;
+    position: relative;
+    left: 30px;
+}
+
+.order-now-section {
+    background-image: linear-gradient(to right, #FF8DC7, #f0dc48);
+    padding: 15px;
+    text-align: center;
+}
+
+.order-heading {
+    color: white;
+    font-size: 20px;
+    font-family: Roboto;
+}
+
+.cards-container img {
+    height: 200px;
+    width: 210px;
+    border-top-right-radius: 55px;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+    border-top-right-radius: 55px;
+    border-bottom-left-radius: 55px;
+    margin: 18px;
+}
+
+.item-desc {
+    text-align: center;
+}
+
+button {
+    padding: 18px;
+    border-radius: 18px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #FFBABA;
+    margin: 25px;
+    border: 0;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.icons {
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+
+}
+
+.icons i {
+    margin: 5px;
+}
+
+@media (max-width: 765px) {
+    .icons {
+        position: relative;
+    }
+    
+}
+
+body {
+    box-sizing: border;
+    margin: 0;
+}
